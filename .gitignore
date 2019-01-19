@@ -1,0 +1,6 @@
+neueda-short-client/node_modules
+neueda-short-client/buildClient
+neueda-short-client/buildServer
+
+neueda-short-server/node_modules
+neueda-short-server/.env

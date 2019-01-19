@@ -1,0 +1,18 @@
+version: '2.0'
+services:
+  web:
+    build: ./neueda-short-client
+    volumes:
+        - .:/web
+    ports:
+        - "80:80"
+    restart: always
+    command: yarn start
+  server:
+    build: ./neueda-short-server
+    volumes:
+        - .:/server
+    ports:
+        - "3001:3001"
+    restart: always
+    command: yarn start
