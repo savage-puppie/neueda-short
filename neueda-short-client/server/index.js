@@ -37,4 +37,4 @@ if (DEV) {
   app.use(serverRender({ clientStats, outputPath }));
 }
 
-app.listen(80, () => console.log('Listening on port 80')); // eslint-disable-line no-console
+app.listen(3000, () => console.log('Listening on port 3000')); // eslint-disable-line no-console

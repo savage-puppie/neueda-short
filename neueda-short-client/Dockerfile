@@ -12,4 +12,4 @@ RUN yarn
 WORKDIR /app
 ADD . /app
 
-EXPOSE 80
+EXPOSE 3000
